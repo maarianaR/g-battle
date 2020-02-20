@@ -1,0 +1,125 @@
+#tudo {
+			
+	margin: 0 auto;
+	width: 940px;
+	font-family: Segoe UI, arial;
+	
+	border-radius: 15px;
+			
+}
+
+#titulo{
+	font-family: Segoe UI, Bodoni MT;
+	color:gray;
+	
+	padding: 0 10 10 10;
+	
+}
+
+#divEnviar {
+	margin: 0 auto;
+	width: 80px;
+	padding: 10 20 10 10;
+	font-family: Segoe UI, Bodoni MT;
+}
+			
+#cadastro{
+	border: 1px black solid;
+	background-image: url(imagens/back_cad.png); 
+	width:460px;
+	/*background-color: 6495ED;*/
+	border-radius: 15px;
+	float:left;
+
+}
+
+#dados_pessoais{
+
+	margin: 0 auto;
+	width: 400px;
+	border-radius: 15px;
+
+}
+
+#conta{
+
+	margin: 0 auto;
+	width: 400px;
+	border-radius: 15px;
+
+}
+
+#login{
+
+	margin: 0 auto;
+	width: 400px;
+	border-radius: 15px;
+	
+}
+
+#acesso{
+	
+	width: 460px;
+	background-color: orange;
+	float: right;
+	border-radius:15px;
+	border: 1px black solid;
+	background-image: url(imagens/back_cad.png); 
+}
+			
+#endereco{
+			
+	margin: 0 auto;
+	width: 400px;
+	border-radius: 15px;
+			
+}
+
+input[type = submit]{
+
+	font-weight: bold;
+	border: 1px solid #aaa;
+	padding: 3px 7px;
+	border-radius: 12px;
+	text-shadow: 0 1px 0 #fff;
+
+}
+
+input[type = submit]:hover{
+	
+	cursor: pointer;
+
+}
+
+label{
+
+	color: red;
+	font-size: 14px;
+
+}
+
+#lb13{
+
+	padding: 10 10 10 60;
+
+}
+
+#buscar{
+
+	margin: 0 auto;
+
+}
+
+#nomeProd{
+
+	border-radius: 15px;
+	font-family: Segoe UI, arial;
+
+}
+
+#categorias{
+	
+	border-radius: 15px;
+	font-family: Segoe UI, arial;
+
+}

@@ -1,0 +1,267 @@
+@charset "utf-8";
+/* CSS Document */
+
+#principal {
+	font-family: Segoe UI, Arial;
+	
+	width: 1024px;
+	margin: 0 auto;
+}
+#banner{
+	width: 971px;
+	height: 289px;
+	background-image:  url(../imagens/banner.png);
+    background-repeat: no-repeat;
+	margin-left:2.3%;
+	
+}
+#animacao {
+	width: 970px;
+	height: 300px;
+	margin-left: 24px;
+	
+}
+#produtos{
+	width: 350px;
+	margin-right: 28px;
+	margin-bottom: 48px;
+	float: right;
+	background-image: url(background_carrinho.png); 
+	height: 160px;
+	border: 1px solid black;
+	font-family: Segoe UI Light, Segoe UI;
+	padding: 0 10 20 10;
+	
+}
+#prod_carrinho{
+width: 920px;
+	background-image: url(background_carrinho.png); 
+	height: 160px;
+	border: 1px solid black;
+	font-family: Segoe UI Light, Segoe UI;
+	padding: 0 10 20 10;
+	margin: 0 auto;
+	}
+#img_grupo{
+	
+	width: 970px;
+	height: 300px;
+	margin-left:2.3%;
+}
+#img{
+	width : 60px;
+	margin : 3 3 3 3;
+	
+}
+#imagem{
+
+	border: 1px solid black;
+
+}
+
+#dados{
+border: 3px solid black;
+width: 350px;
+height: 300px;
+float:left;	
+}
+
+#nome{
+	padding : 3 10 3 10;
+}
+
+#preco{
+padding : 3 10 3 10;
+color: blue;
+}
+
+#subtotal{
+padding : 3 10 3 10;
+}
+#lancamentos {
+	width: 970px;
+	height: 350px;
+	margin-left: 24px;
+}
+
+
+#promocoes {
+	width: 970px;
+	height: 300px;
+	margin-left: 24px;
+}
+
+#emails {
+	width: 970px;
+	height: 350px;
+	margin-left: 24px;
+}
+
+#barra {
+	width: 970px;
+	height: 45px;
+}
+
+#obanner {
+	margin-left: 24px
+}
+
+#orodape {
+	margin-left: 24px;
+	clear:both;
+}
+
+#barralat {
+	width: 186px;
+	margin-left: 24px;
+	background-color: #FFF;
+	float: left;
+}
+
+a:link{
+text-decoration: none;
+	
+}
+
+
+#jogos_esq {
+	width: 380px;
+	height: 500px;
+	background-color: #FFF;
+	float: left;
+}
+
+#jogos_dir {
+	width: 383px;
+	height: 500px;
+	background-color: #FFF;
+	float: right;
+}
+
+#jg1{
+width: 190px;
+height: 265px;
+float:left;
+}
+
+#jg3 {
+	width: 190px;
+	height: 265px;
+	float: left;
+	margin-left: 80px;
+}
+
+#jg2 {
+	width: 200px;
+	height: 265px;
+	float: right;
+	margin-left:80px;
+}
+
+#jg4 {
+	width: 190px;
+	height: 265px;
+	float: right;
+
+}
+.lblcarrinho{
+	
+	margin-left: 79.2%;
+	vertical-align: 0px;
+	font-size:40px;
+	font-weight:bold;
+	color: #2f7dd8;
+}
+
+#nomeprod{
+	margin--left: 11%;
+	vertical-align: 0px;	
+}
+
+.cont_compra {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fcfcfc), color-stop(1, #c2c2c2) );
+	background:-moz-linear-gradient( center top, #fcfcfc 5%, #c2c2c2 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#c2c2c2');
+	background-color:#fcfcfc;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	border-radius:13px;
+	border:1px solid #050402;
+	display:inline-block;
+	color:#121212;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:8px 14px;
+	text-decoration:none;
+	text-shadow:1px 0px 0px #ffffff;
+}.cont_compra:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c2c2c2), color-stop(1, #fcfcfc) );
+	background:-moz-linear-gradient( center top, #c2c2c2 5%, #fcfcfc 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c2c2c2', endColorstr='#fcfcfc');
+	background-color:#c2c2c2;
+}.cont_compra:active {
+	position:relative;
+	top:1px;
+}
+
+.atualizar {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fcfcfc), color-stop(1, #c2c2c2) );
+	background:-moz-linear-gradient( center top, #fcfcfc 5%, #c2c2c2 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#c2c2c2');
+	background-color:#fcfcfc;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	border-radius:13px;
+	border:1px solid #050402;
+	display:inline-block;
+	color:#121212;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:8px 14px;
+	text-decoration:none;
+	text-shadow:1px 0px 0px #ffffff;
+}.atualizar:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c2c2c2), color-stop(1, #fcfcfc) );
+	background:-moz-linear-gradient( center top, #c2c2c2 5%, #fcfcfc 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c2c2c2', endColorstr='#fcfcfc');
+	background-color:#c2c2c2;
+	cursor: pointer;
+}.atualizar:active {
+	position:relative;
+	top:1px;
+}
+.comprar {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fcfcfc), color-stop(1, #c2c2c2) );
+	background:-moz-linear-gradient( center top, #fcfcfc 5%, #c2c2c2 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#c2c2c2');
+	background-color:#fcfcfc;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	border-radius:13px;
+	border:1px solid #050402;
+	display:inline-block;
+	color:#121212;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:8px 14px;
+	text-decoration:none;
+	text-shadow:1px 0px 0px #ffffff;
+	margin-top: 10px;
+}.comprar:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c2c2c2), color-stop(1, #fcfcfc) );
+	background:-moz-linear-gradient( center top, #c2c2c2 5%, #fcfcfc 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c2c2c2', endColorstr='#fcfcfc');
+	background-color:#c2c2c2;
+}.comprar:active {
+	position:relative;
+	top:1px;
+}
+
+#busca{
+margin-left: 100px;
+	margin-top: -25px;
+	
+}
